@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Light background for better contrast */
+  color: #333; /* Darker text color for better readability */
+}
+
+nav {
+  background: #333; /* Dark navigation bar */
+  color: #fff;
+  padding: 15px 20px; /* Slightly reduced padding */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 15px; /* Increased spacing for better aesthetics */
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #ff4d6d; /* Color change on hover for better visibility */
+}
+
+nav a.selected {
+  font-weight: bold;
+  border-bottom: 2px solid #ff4d6d; /* Underline effect for selected link */
+}
+
+main {
+  padding: 40px 20px; /* Increased padding for more whitespace */
+  text-align: center;
+  max-width: 800px; /* Centering and limiting width for better readability */
+  margin: 0 auto; /* Centering the main content */
+  background-color: #fff; /* White background for content area */
+  border-radius: 8px; /* Rounded corners for a modern look */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for elevation effect */
+}
+
+h1 {
+  font-size: 2.5em; /* Larger heading for emphasis */
+  color: #ff4d6d; /* Heading color to match the theme */
+  margin-bottom: 20px; /* Spacing below the heading */
+}
+
+h2 {
+  font-size: 1.8em; /* Slightly larger subheadings */
+  color: #333; /* Darker subheading color */
+  margin: 20px 0; /* Spacing above and below subheadings */
+}
+
+p {
+  line-height: 1.6; /* Improved line spacing for readability */
+  margin: 10px 0; /* Spacing above and below paragraphs */
+}
+
+footer {
+  text-align: center; /* Centered text in footer */
+  padding: 20px; /* Padding for footer */
+  background-color: #333; /* Dark background to match nav */
+  color: #fff; /* White text for footer */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
